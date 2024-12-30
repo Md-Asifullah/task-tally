@@ -4,7 +4,7 @@
             <div class="col-lg-7 col-md-12">
                 <h1 class="fw-bold main-title">
                     <span class="teal-color">Task Tally:</span> <br />
-                    Efficient Task Management for Freelancers
+                    Efficient Task Management Application for Freelancers
                 </h1>
                 <p class="text-secondary mt-4">
                     Task Tally is designed to help freelancers manage multiple
@@ -56,7 +56,7 @@ export default {
 
 <style scoped>
 .main-title {
-    font-size: 3em;
+    font-size: 2.7em;
     line-height: 1.4em;
 }
 .secondary-title {

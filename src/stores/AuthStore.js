@@ -10,10 +10,13 @@ export const useAuthStore = defineStore('auth', () => {
     const fullNameSet = ref(false);
     let timer;
 
+    // Access the API key from environment variables
+    const apiKey = 'import.meta.env.VITE_API_KEY';
+
     const signin = async (payload) => {
         try {
             const response = await fetch(
-                'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA1vhtrF5QN_68A6VsTM12eNupq_NZ9A4U',
+                `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${apiKey}`,
                 {
                     method: 'POST',
                     body: JSON.stringify({
@@ -88,7 +91,7 @@ export const useAuthStore = defineStore('auth', () => {
     const signup = async (payload) => {
         try {
             const response = await fetch(
-                'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA1vhtrF5QN_68A6VsTM12eNupq_NZ9A4U',
+                `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${apiKey}`,
                 {
                     method: 'POST',
                     body: JSON.stringify({
