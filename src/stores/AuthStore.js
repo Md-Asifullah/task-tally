@@ -11,7 +11,7 @@ export const useAuthStore = defineStore('auth', () => {
     let timer;
 
     // Access the API key from environment variables
-    const apiKey = 'ABCD';
+    const apiKey = 'import.meta.env.VITE_API_KEY';
 
     const signin = async (payload) => {
         try {
