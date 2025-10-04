@@ -50,7 +50,7 @@ As a full‑time freelancer, I constantly juggled changing requirements, shiftin
 
 ```bash
 # 1) Clone the repo
-git clone https://github.com/Md-Asifullah/task-tally-v1.git
+git clone https://github.com/Md-Asifullah/task-tally.git
 cd task-tally
 
 # 2) Install dependencies
