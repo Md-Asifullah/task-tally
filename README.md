@@ -122,14 +122,14 @@ VUE_APP_API_KEY=your_api_key
 
 Add screenshots to `src/assets/` and reference them here:
 
-```md
+
 ![Task Tally — Home](src/assets/home.jpg)
 ![Task Tally — Login](src/assets/login.jpg)
 ![Task Tally — Registration](src/assets/registration.jpg)
 ![Task Tally — Create Task](src/assets/create_task.jpg)
 ![Task Tally — All Tasks](src/assets/all_tasks.jpg)
 ![Task Tally — Archived Tasks](src/assets/archived_tasks.jpg)
-```
+
 
 ---
 
