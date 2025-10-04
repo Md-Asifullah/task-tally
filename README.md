@@ -120,16 +120,29 @@ VUE_APP_API_KEY=your_api_key
 
 ## 📸 Screenshots
 
-Add screenshots to `src/assets/` and reference them here:
+Home Page:
 
-```md
 ![Task Tally — Home](src/assets/home.jpg)
+
+Login Page:
+
 ![Task Tally — Login](src/assets/login.jpg)
+
+Registration Page:
+
 ![Task Tally — Registration](src/assets/registration.jpg)
+
+Create Task Page:
+
 ![Task Tally — Create Task](src/assets/create_task.jpg)
+
+All Tasks Page:
+
 ![Task Tally — All Tasks](src/assets/all_tasks.jpg)
+
+Archived Tasks Page:
+
 ![Task Tally — Archived Tasks](src/assets/archived_tasks.jpg)
-```
 
 ---
 
